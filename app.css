@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(7, 0, 43);
+}
+
+.h1{
+    text-align: center;
+    font-size: 3em;
+    color: rgb(231, 231, 231);
+}
+#searchForm{
+    text-align: center;
+}
+
+#searchInput{
+    width: 192px;
+    height: 34px;
+    border-radius: 5px;
+    text-align: center;
+    color: rgb(231, 231, 231)
+}
+
+.gifLi{
+    position: relative;
+    display: inline-block; 
+    margin: 10px;
+}
+
+#searchBtn{
+    background-color: rgb(43, 167, 43);
+    opacity: 80%;
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+    font-weight: 600;
+}
+#searchBtn:hover{
+    cursor: pointer;
+    opacity: 100%;
+}
+
+#removeBtn{
+    background-color: rgb(216, 51, 51);
+    opacity: 80%;
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+    font-weight: 600;
+}
+#removeBtn:hover{
+    cursor: pointer;
+    opacity: 100%;
+}

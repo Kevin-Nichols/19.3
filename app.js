@@ -9,9 +9,9 @@ function getGif(res){
     if(resultsAmount){
         let randAmount = Math.floor(Math.random()*resultsAmount);
         let $newLi = $('<li>', {class: 'gifLi'});
-        let $newGif = $('<img>', {src: res.data[randAmount].images.original.url, class: 'gif'});
+        let $newGif = $('<img>', {src: res.data[randAmount].images.original.url});
         
-        $newLi.append($newGif);
+        $newLi.append($newGif); 
         $gifList.append($newLi);
     }
 }
